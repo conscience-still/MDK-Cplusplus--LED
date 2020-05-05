@@ -1,0 +1,17 @@
+--cpu Cortex-M0
+"c++test\startup_stm32f071xb.o"
+"c++test\stm32f0xx_it.o"
+"c++test\main.o"
+"c++test\retarget.o"
+"c++test\system_stm32f0xx.o"
+"c++test\stm32f0xx_ll_gpio.o"
+"c++test\stm32f0xx_ll_pwr.o"
+"c++test\stm32f0xx_ll_exti.o"
+"c++test\stm32f0xx_ll_usart.o"
+"c++test\stm32f0xx_ll_rcc.o"
+"c++test\stm32f0xx_ll_dma.o"
+"c++test\stm32f0xx_ll_utils.o"
+--strict --scatter "c++test\c++test.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "c++test.map" -o c++test\c++test.axf
