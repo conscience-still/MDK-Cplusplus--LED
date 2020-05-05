@@ -58,28 +58,31 @@ int main(void);
 /* USER CODE BEGIN 0 */
 #if 1
 /*在初始化之前再初始化一些外设 目前暂无用*/
-//extern void $Super$$__rt_entry(void);
-//void $Sub$$__rt_entry(void)  {
-//  MX_USART2_UART_Init();
-//  $Super$$__rt_entry();
-//}
-//void __rt_entry(void)
-//{
-//}
-#include <iostream>
+#ifdef __cplusplus
+   extern "C" {
+#endif
+extern void $Super$$main(void);
+void $Sub$$main(void)  {
+  MX_USART2_UART_Init();
+  $Super$$main();
+}
+#ifdef __cplusplus
+    } //extern "C"
+#endif
+//#include <iostream>
 #include "stdio.h"
 namespace STM32_TEST {
-using std::cout;
-using std::endl;
+//using std::cout;
+//using std::endl;
 TestGPIO::TestGPIO()
 {
-	cout<<"hello this is a test"<<endl;
-	printf("hello this is a test\r\n");
+//	cout<<"hello this is a test"<<endl;
+	printf("hello this is a c++ test,init TestGPIO class\r\n");
 }
 TestGPIO::TestGPIO(uint16_t value)
 {
 	this->value = value;
-	cout<<"hello this is a test value"<<endl;
+//	cout<<"hello this is a test value"<<endl;
 	printf("hello this is a test value\r\n");
 	
 }
@@ -117,8 +120,10 @@ using STM32_TEST::TestGPIO;
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-  /* USER CODE END 1 */
- TestGPIO testg;
+  
+	/* USER CODE END 1 */
+ 
+	TestGPIO testg;
  
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -161,6 +166,7 @@ int main(void)
 	i++;
 	if(i>8)i=0;
 	LL_mDelay(100);
+	  
   }
   /* USER CODE END 3 */
 }
