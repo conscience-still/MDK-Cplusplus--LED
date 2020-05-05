@@ -22,7 +22,29 @@ I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_dma.h)(0x5DCA4656)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_usart.h)(0x5DCA4656)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_gpio.h)(0x5E873AA0)
 I (../Inc/stm32f0xx_it.h)(0x5EAFB2E3)
-F (..\Src\main.c)(0x5EB0BCF1)(--cpp -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include --cpp-I.\RTE\_c__test-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F071xB -DSTM32F071xB -DUSE_FULL_LL_DRIVER -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DHSI_VALUE="8000000" -DLSI_VALUE="40000" -DVDD_VALUE="3300" -DPREFETCH_ENABLE="1" -DINSTRUCTION_CACHE_ENABLE="0" -DDATA_CACHE_ENABLE="0"-o c++test\main.o --omf_browse c++test\main.crf --depend c++test\main.d)
+F (..\Src\retarget.c)(0x5EB0BCB5)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include --cpp-I.\RTE\_c__test-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F071xB -DSTM32F071xB -DUSE_FULL_LL_DRIVER -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DHSI_VALUE="8000000" -DLSI_VALUE="40000" -DVDD_VALUE="3300" -DPREFETCH_ENABLE="1" -DINSTRUCTION_CACHE_ENABLE="0" -DDATA_CACHE_ENABLE="0"-o c++test\retarget.o --omf_browse c++test\retarget.crf --depend c++test\retarget.d)
+I (d:\Keil_v5\ARM\ARMCC\include\rt_sys.h)(0x599ECD2C)
+I (../Inc/main.h)(0x5EAFDF15)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_crs.h)(0x5DCA4656)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5DCA4651)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f071xb.h)(0x5DDC9A16)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5DCA4656)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x5DCA4656)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x5DCA4656)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DCA4656)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5DDCC43E)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h)(0x5DCA4656)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_bus.h)(0x5DCA4656)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h)(0x5DCA4656)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_exti.h)(0x5DCA4656)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_cortex.h)(0x5DCA4656)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_utils.h)(0x5DCA4656)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_pwr.h)(0x5DCA4656)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_dma.h)(0x5DCA4656)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_usart.h)(0x5DCA4656)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_gpio.h)(0x5E873AA0)
+F (..\Src\main.cpp)(0x5EB0BCF1)(--cpp -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include --cpp-I.\RTE\_c__test-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F071xB -DSTM32F071xB -DUSE_FULL_LL_DRIVER -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DHSI_VALUE="8000000" -DLSI_VALUE="40000" -DVDD_VALUE="3300" -DPREFETCH_ENABLE="1" -DINSTRUCTION_CACHE_ENABLE="0" -DDATA_CACHE_ENABLE="0"-o c++test\main.o --omf_browse c++test\main.crf --depend c++test\main.d)
 I (../Inc/main.h)(0x5EAFDF15)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_crs.h)(0x5DCA4656)
 I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5DCA4651)
@@ -102,28 +124,6 @@ I (d:\Keil_v5\ARM\ARMCC\include\rw\_punct.CC)(0x564D4E5E)
 I (d:\Keil_v5\ARM\ARMCC\include\rw\_numeric.CC)(0x564D4E5C)
 I (d:\Keil_v5\ARM\ARMCC\include\ios.CC)(0x564D4E5E)
 I (d:\Keil_v5\ARM\ARMCC\include\ostream.CC)(0x564D4E5E)
-F (..\Src\retarget.c)(0x5EB0BCB5)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include --cpp-I.\RTE\_c__test-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F071xB -DSTM32F071xB -DUSE_FULL_LL_DRIVER -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DHSI_VALUE="8000000" -DLSI_VALUE="40000" -DVDD_VALUE="3300" -DPREFETCH_ENABLE="1" -DINSTRUCTION_CACHE_ENABLE="0" -DDATA_CACHE_ENABLE="0"-o c++test\retarget.o --omf_browse c++test\retarget.crf --depend c++test\retarget.d)
-I (d:\Keil_v5\ARM\ARMCC\include\rt_sys.h)(0x599ECD2C)
-I (../Inc/main.h)(0x5EAFDF15)
-I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_crs.h)(0x5DCA4656)
-I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5DCA4651)
-I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f071xb.h)(0x5DDC9A16)
-I (../Drivers/CMSIS/Include/core_cm0.h)(0x5DCA4656)
-I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (../Drivers/CMSIS/Include/cmsis_version.h)(0x5DCA4656)
-I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x5DCA4656)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DCA4656)
-I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5DDCC43E)
-I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h)(0x5DCA4656)
-I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_bus.h)(0x5DCA4656)
-I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h)(0x5DCA4656)
-I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_exti.h)(0x5DCA4656)
-I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_cortex.h)(0x5DCA4656)
-I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_utils.h)(0x5DCA4656)
-I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_pwr.h)(0x5DCA4656)
-I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_dma.h)(0x5DCA4656)
-I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_usart.h)(0x5DCA4656)
-I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_gpio.h)(0x5E873AA0)
 F (../Src/system_stm32f0xx.c)(0x5DCA4651)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include --cpp-I.\RTE\_c__test-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F071xB -DSTM32F071xB -DUSE_FULL_LL_DRIVER -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DHSI_VALUE="8000000" -DLSI_VALUE="40000" -DVDD_VALUE="3300" -DPREFETCH_ENABLE="1" -DINSTRUCTION_CACHE_ENABLE="0" -DDATA_CACHE_ENABLE="0"-o c++test\system_stm32f0xx.o --omf_browse c++test\system_stm32f0xx.crf --depend c++test\system_stm32f0xx.d)
 I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5DCA4651)
 I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f071xb.h)(0x5DDC9A16)

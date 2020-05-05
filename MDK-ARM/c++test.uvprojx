@@ -397,14 +397,14 @@
               <FilePath>../Src/stm32f0xx_it.c</FilePath>
             </File>
             <File>
-              <FileName>main.c</FileName>
-              <FileType>8</FileType>
-              <FilePath>..\Src\main.c</FilePath>
-            </File>
-            <File>
               <FileName>retarget.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Src\retarget.c</FilePath>
+            </File>
+            <File>
+              <FileName>main.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\Src\main.cpp</FilePath>
             </File>
           </Files>
         </Group>

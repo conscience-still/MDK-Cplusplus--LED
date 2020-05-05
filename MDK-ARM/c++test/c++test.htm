@@ -3,7 +3,7 @@
 <title>Static Call Graph - [c++test\c++test.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image c++test\c++test.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Tue May 05 10:47:39 2020
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Tue May 05 10:55:28 2020
 <BR><P>
 <H3>Maximum Stack Usage =       1320 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -130,7 +130,7 @@ Function Pointers
  <LI><a href="#[80]">std::codecvt&lang;char, char, std::__mbstate_t&rang;::~codecvt()</a> from ios.o(i._ZNSt7codecvtIccSt11__mbstate_tED1Ev) referenced from ios.o(.constdata__ZTVSt7codecvtIccSt11__mbstate_tE)
  <LI><a href="#[87]">std::codecvt&lang;wchar_t, char, std::__mbstate_t&rang;::~codecvt__deallocating()</a> from ios.o(i._ZNSt7codecvtIwcSt11__mbstate_tED0Ev) referenced from ios.o(.constdata__ZTVSt7codecvtIwcSt11__mbstate_tE)
  <LI><a href="#[86]">std::codecvt&lang;wchar_t, char, std::__mbstate_t&rang;::~codecvt()</a> from ios.o(i._ZNSt7codecvtIwcSt11__mbstate_tED1Ev) referenced from ios.o(.constdata__ZTVSt7codecvtIwcSt11__mbstate_tE)
- <LI><a href="#[58]">std::ios_base::Init::~Init()</a> from ios.o(i._ZNSt8ios_base4InitD1Ev) referenced from main.o(i.__sti___6_main_c_4c8b4d0d)
+ <LI><a href="#[58]">std::ios_base::Init::~Init()</a> from ios.o(i._ZNSt8ios_base4InitD1Ev) referenced from main.o(i.__sti___8_main_cpp_4c8b4d0d)
  <LI><a href="#[8c]">std::messages&lang;char&rang;::~messages__deallocating()</a> from rwstdexcept.o(i._ZNSt8messagesIcED0Ev) referenced from rwstdexcept.o(.constdata__ZTVSt8messagesIcE)
  <LI><a href="#[8b]">std::messages&lang;char&rang;::~messages()</a> from rwstdexcept.o(i._ZNSt8messagesIcED1Ev) referenced from rwstdexcept.o(.constdata__ZTVSt8messagesIcE)
  <LI><a href="#[50]">std::basic_ostream&lang;T1, T2&rang;& std::endl&lang;char, std::char_traits&lang;char&rang;&rang;(std::basic_ostream&lang;T1, T2&rang;&)</a> from main.o(t._ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_) referenced from main.o(i._ZN10STM32_TEST8TestGPIOC1Ev)
@@ -138,8 +138,8 @@ Function Pointers
  <LI><a href="#[94]">__main</a> from __main.o(!!!main) referenced from startup_stm32f071xb.o(.text)
  <LI><a href="#[91]">__sti___10_locale_cpp_ff99fc7b</a> from locale.o(i.__sti___10_locale_cpp_ff99fc7b) referenced from locale.o(.init_array)
  <LI><a href="#[92]">__sti___10_rwcats_cpp_64e8068e</a> from rwcats.o(i.__sti___10_rwcats_cpp_64e8068e) referenced from rwcats.o(.init_array)
- <LI><a href="#[8f]">__sti___6_main_c_4c8b4d0d</a> from main.o(i.__sti___6_main_c_4c8b4d0d) referenced from main.o(.init_array)
  <LI><a href="#[90]">__sti___8_char_cpp_a3dc957a</a> from char.o(i.__sti___8_char_cpp_a3dc957a) referenced from char.o(.init_array)
+ <LI><a href="#[8f]">__sti___8_main_cpp_4c8b4d0d</a> from main.o(i.__sti___8_main_cpp_4c8b4d0d) referenced from main.o(.init_array)
  <LI><a href="#[47]">_get_lc_ctype</a> from lc_ctype_c.o(locale$$code) referenced from rt_ctype_table.o(.text)
  <LI><a href="#[5f]">_printf_fp_dec_real</a> from _printf_fp_dec.o(.text) referenced from printf1.o(x$fpl$printf1)
  <LI><a href="#[60]">_printf_fp_hex_real</a> from _printf_fp_hex.o(.text) referenced from printf2.o(x$fpl$printf2)
@@ -714,7 +714,7 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;malloc
 <LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_ddtor_pointer_addr
 </UL>
-<BR>[Called By]<UL><LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__sti___6_main_c_4c8b4d0d
+<BR>[Called By]<UL><LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__sti___8_main_cpp_4c8b4d0d
 <LI><a href="#[19c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::__rw_get_cats()
 <LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__sti___10_rwcats_cpp_64e8068e
 <LI><a href="#[1a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::locale::classic()
@@ -1015,8 +1015,8 @@ Global Symbols
 <P><STRONG><a name="[103]"></a>_fclose_internal</STRONG> (Thumb, 72 bytes, Stack size 32 bytes, fclose.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 100<LI>Call Chain = _fclose_internal &rArr; _fflush &rArr; _writebuf &rArr; _sys_write
 </UL>
-<BR>[Calls]<UL><LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
-<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_sys_close
+<BR>[Calls]<UL><LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_sys_close
+<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
 <LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fflush
 <LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;free
 </UL>
@@ -2862,7 +2862,7 @@ Global Symbols
 <LI><a href="#[1c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::basic_filebuf&lang;char, std::char_traits&lang;char&rang;&rang;::basic_filebuf(std::__FILE*, char*, long)
 <LI><a href="#[1c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::basic_ostream&lang;char, std::char_traits&lang;char&rang;&rang;::basic_ostream(std::basic_streambuf&lang;char, std::char_traits&lang;char&rang;&rang;*)
 </UL>
-<BR>[Called By]<UL><LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__sti___6_main_c_4c8b4d0d
+<BR>[Called By]<UL><LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__sti___8_main_cpp_4c8b4d0d
 </UL>
 
 <P><STRONG><a name="[26d]"></a>std::ios_base::Init::Init__sub_object()</STRONG> (Thumb, 0 bytes, Stack size 32 bytes, ios.o(i._ZNSt8ios_base4InitC1Ev), UNUSED)
@@ -2873,7 +2873,7 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[1ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::basic_streambuf&lang;wchar_t, std::char_traits&lang;wchar_t&rang;&rang;::pubsetbuf(wchar_t*, long)
 <LI><a href="#[1cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::basic_streambuf&lang;char, std::char_traits&lang;char&rang;&rang;::pubsetbuf(char*, long)
 </UL>
-<BR>[Address Reference Count : 1]<UL><LI> main.o(i.__sti___6_main_c_4c8b4d0d)
+<BR>[Address Reference Count : 1]<UL><LI> main.o(i.__sti___8_main_cpp_4c8b4d0d)
 </UL>
 <P><STRONG><a name="[26e]"></a>std::ios_base::Init::~Init__sub_object()</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, ios.o(i._ZNSt8ios_base4InitD1Ev), UNUSED)
 
@@ -4173,9 +4173,9 @@ Local Symbols
 <LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[8f]"></a>__sti___6_main_c_4c8b4d0d</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, main.o(i.__sti___6_main_c_4c8b4d0d))
+<P><STRONG><a name="[8f]"></a>__sti___8_main_cpp_4c8b4d0d</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, main.o(i.__sti___8_main_cpp_4c8b4d0d))
 <BR><BR>[Stack]<UL><LI>Max Depth = 776 + Unknown Stack Size
-<LI>Call Chain = __sti___6_main_c_4c8b4d0d &rArr; std::ios_base::Init::Init() &rArr; std::basic_ostream&lang;wchar_t, std::char_traits&lang;wchar_t&rang;&rang;::basic_ostream(std::basic_streambuf&lang;wchar_t, std::char_traits&lang;wchar_t&rang;&rang;*) &rArr; std::basic_ios&lang;wchar_t, std::char_traits&lang;wchar_t&rang;&rang;::init(std::basic_streambuf&lang;wchar_t, std::char_traits&lang;wchar_t&rang;&rang;*) &rArr; std::locale::_C_use_facet(const std::locale::id&, bool, int, __rw::__rw_facet_base*(*)(int, const char*, unsigned)) const &rArr; std::locale::_C_make_facet(const std::locale::id&, bool, int, __rw::__rw_facet_base*(*)(int, const char*, unsigned)) const &rArr; std::locale::locale(__rw::__rw_locale_imp*) &rArr; std::locale::_C_init() &rArr; __rw::__rw_locale_imp::__rw_locale_imp(const char*, unsigned, unsigned) &rArr; std::basic_string&lang;char, std::char_traits&lang;char&rang;, std::allocator&lang;char&rang;&rang;::operator =(const std::basic_string&lang;char, std::char_traits&lang;char&rang;, std::allocator&lang;char&rang;&rang;&) &rArr; std::basic_string&lang;char, std::char_traits&lang;char&rang;, std::allocator&lang;char&rang;&rang;::replace(unsigned, unsigned, const char*, unsigned) &rArr; std::basic_string&lang;char, std::char_traits&lang;char&rang;, std::allocator&lang;char&rang;&rang;::replace(unsigned, unsigned, const char*, unsigned, unsigned, unsigned) &rArr; std::basic_string&lang;char, std::char_traits&lang;char&rang;, std::allocator&lang;char&rang;&rang;::_C_getRep(unsigned, unsigned) &rArr; __rw::__rw_allocate(unsigned, int) &rArr; __rw::__rw_throw(int, ...) &rArr; std::__rw_exception::_C_vformat(int, std::__va_list) &rArr; [local to rwstdexcept_cpp]::__rw::__rw_vfmatstr(char*, unsigned, int, std::__va_list) &rArr; sscanf &rArr; __vfscanf_char &rArr; __vfscanf &rArr; _scanf_mbtowc &rArr; _mbrtowc &rArr; __rt_ctype_table
+<LI>Call Chain = __sti___8_main_cpp_4c8b4d0d &rArr; std::ios_base::Init::Init() &rArr; std::basic_ostream&lang;wchar_t, std::char_traits&lang;wchar_t&rang;&rang;::basic_ostream(std::basic_streambuf&lang;wchar_t, std::char_traits&lang;wchar_t&rang;&rang;*) &rArr; std::basic_ios&lang;wchar_t, std::char_traits&lang;wchar_t&rang;&rang;::init(std::basic_streambuf&lang;wchar_t, std::char_traits&lang;wchar_t&rang;&rang;*) &rArr; std::locale::_C_use_facet(const std::locale::id&, bool, int, __rw::__rw_facet_base*(*)(int, const char*, unsigned)) const &rArr; std::locale::_C_make_facet(const std::locale::id&, bool, int, __rw::__rw_facet_base*(*)(int, const char*, unsigned)) const &rArr; std::locale::locale(__rw::__rw_locale_imp*) &rArr; std::locale::_C_init() &rArr; __rw::__rw_locale_imp::__rw_locale_imp(const char*, unsigned, unsigned) &rArr; std::basic_string&lang;char, std::char_traits&lang;char&rang;, std::allocator&lang;char&rang;&rang;::operator =(const std::basic_string&lang;char, std::char_traits&lang;char&rang;, std::allocator&lang;char&rang;&rang;&) &rArr; std::basic_string&lang;char, std::char_traits&lang;char&rang;, std::allocator&lang;char&rang;&rang;::replace(unsigned, unsigned, const char*, unsigned) &rArr; std::basic_string&lang;char, std::char_traits&lang;char&rang;, std::allocator&lang;char&rang;&rang;::replace(unsigned, unsigned, const char*, unsigned, unsigned, unsigned) &rArr; std::basic_string&lang;char, std::char_traits&lang;char&rang;, std::allocator&lang;char&rang;&rang;::_C_getRep(unsigned, unsigned) &rArr; __rw::__rw_allocate(unsigned, int) &rArr; __rw::__rw_throw(int, ...) &rArr; std::__rw_exception::_C_vformat(int, std::__va_list) &rArr; [local to rwstdexcept_cpp]::__rw::__rw_vfmatstr(char*, unsigned, int, std::__va_list) &rArr; sscanf &rArr; __vfscanf_char &rArr; __vfscanf &rArr; _scanf_mbtowc &rArr; _mbrtowc &rArr; __rt_ctype_table
 </UL>
 <BR>[Calls]<UL><LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_atexit
 <LI><a href="#[1c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::ios_base::Init::Init()
