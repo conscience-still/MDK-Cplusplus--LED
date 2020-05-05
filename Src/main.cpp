@@ -57,7 +57,6 @@ int main(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 #if 1
-/*在初始化之前再初始化一些外设 目前暂无用*/
 #ifdef __cplusplus
    extern "C" {
 #endif
